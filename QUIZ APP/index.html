@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+    <div class="header">
+    <h1>Quiz Application</h1>
+    </div>
+    <br />
+
+    <div class="quiz-container">
+      <span id="time">2:00</span>
+      <h2 id="ques"></h2>
+      <label>
+        <input type="radio" name="option" value="1" onclick="trigger()">
+        <span id="opt1"></span>
+      </label>
+      <label>
+        <input type="radio" name="option" value="2" onclick="trigger()">
+        <span id="opt2"></span>
+      </label>
+      <label>
+        <input type="radio" name="option" value="3" onclick="trigger()">
+        <span id="opt3"></span>
+      </label>
+      <button id="btn" onclick="nextQuestion()" disabled>Next</button>
+    </div>
+  </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
