@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(95, 75, 75, 0.63);
+}
+.input{
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    color: black;
+    background-color: seashell;
+    border: none;
+}
+.title{
+   background-color: rgb(53, 44, 44);
+   color: white;
+   display: inline-block;
+}
+.btn{
+    border-radius: 7px;
+    padding: 12px;
+    margin: 10px;
+    background-color: rgba(95, 75, 75, 0.63);
+    color: seashell;
+    border: none;
+}
+.btn:hover{
+    background-color: seashell;
+    color:rgba(95, 75, 75, 0.63);
+}
